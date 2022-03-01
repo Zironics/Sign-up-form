@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="java.js" defer>
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="markup"> ODIN</div>
+            <div class="credit"> Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_source=unsplash&utm_medium=re
+                ferral&utm_content=creditCopyText">
+                Casey Horner</a> on <a href="https://unsplash.com/photos/FReSqs4uLYo?utm_source=unsplash&utm_medium=
+                referral&utm_content=creditCopyText">Unsplash</a></div>
+        </div>
+        <div class="right-side">
+           <div class="intro">This is not a real online service!
+            You know you need something like this in your life 
+            to help you realize your deepest dreams. Sign up now to 
+            get started.<br><br>
+            You know you want to!
+        </div>
+           <form class="form">
+               <div class="item-container">
+                   <label for="firstname">First name</label>
+                   <input type="text" id="firstname" required>
+               </div>
+               <div class="item-container">
+                <label for="lastname">Last name</label>
+                <input type="text" id="lastname" required>
+            </div>
+            <div class="item-container">
+                <label for="Email">Email adresse</label>
+                <input type="email" id="Email" required>
+            </div>
+            <div class="item-container">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone">
+            </div>
+            <div class="item-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="wrong" required>
+            </div>
+            <div class="item-container">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" id="confirm" class='wrong' required>
+            </div>
+            <div class="error"></div>
+            <div class="sign">
+                <button type="submit">Sign up</button>
+                <span>Already have an account?<a id="sign" href="#">Sign in.</a></span>
+            </div>
+           </form>
+           <div class="footer f">Made by Zironics</div>
+        </div>
+        <div class="overlay">
+        </div>
+        <div class="Sign-in">
+            <div class="sign-container">
+                <h2>Sign in</h2>
+                <form class="item-container2">
+                    <label for="email2">Email</label>
+                    <input type="email" id="email2">
+                    <label for="password2">Password</label>
+                    <input type="password" id="password2">
+                    <button type="submit">Sign in</button>
+                    <p>don't have an account?<a id="sign">sign-up</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
